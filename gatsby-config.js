@@ -2,10 +2,10 @@ const remark = require("remark");
 
 module.exports = {
   siteMetadata: {
-    title: `Vapor`,
-    author: `Vaporwavy`,
-    description: `A blog for minimalist`,
-    siteUrl: `https://vapor.aesthetic.codes/`,
+    title: `Sprich Deutsch du`,
+    author: `Clerton`,
+    description: `A blog for learn german`,
+    siteUrl: `https://sprich-deustch-du.netlify.app`,
     social: {
       twitter: ``,
     },
