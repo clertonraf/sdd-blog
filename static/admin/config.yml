@@ -1,13 +1,12 @@
 backend:
   name: github
   repo: clertonraf/sdd-blog
-media_folder: static/assets
-public_folder: /assets
+media_folder: content/assets
+public_folder: content/assets
 collections:
   - name: blog
     label: Blog
     folder: "content/blog/"
-    slug: "{{slug}}/index"
     create: true
     fields:
       - { name: title, label: Title }
