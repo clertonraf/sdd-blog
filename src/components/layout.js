@@ -46,10 +46,10 @@ class Layout extends Component {
               <li><Link to={`/search`}>Search</Link></li>
               <li>{toggler}</li>
             </ul>
-            <ul className="header-link">
+{/*             <ul className="header-link">
               <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
               <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-            </ul>
+            </ul> */}
           </div>
         </div>
         <main>{children}</main>
