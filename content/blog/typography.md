@@ -1,8 +1,13 @@
 ---
 title: What is typography?
-date: "2020-04-14"
-tags: [art,font,wikipedia]
-thumbnail : ./typography.png
+date: 2020-04-14
+tags:
+  - art
+  - font
+  - wikipedia
+thumbnail: ./typography.png
+image: content/assets/typography.png
+description: typography
 ---
 
 # Typography
