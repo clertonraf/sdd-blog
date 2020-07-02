@@ -7,7 +7,6 @@ tags:
   - menschen
   - arbeitsbuch
   - lektion 4
-  - ""
 description: Schreiben Sie eine Reklamation
 ---
 **Meine Bestellung vom 10. März**
