@@ -89,21 +89,21 @@ module.exports = {
             },
             date: node => {
               const months= [
-                "January",
-                "February",
-                "March",
+                "Januar",
+                "Februar",
+                "März",
                 "April",
-                "May",
+                "Mai",
                 "June",
-                "July",
+                "Juli",
                 "August",
                 "September",
-                "October",
+                "Oktober",
                 "November",
                 "December"
               ];
               const date = new Date(node.frontmatter.date);
-              return months[date.getUTCMonth(0)] + " " + date.getUTCDate(0) + ", " + date.getUTCFullYear(0);
+              return date.getUTCDate(0) + " " + months[date.getUTCMonth(0)] + " " + date.getUTCFullYear(0);
             },
           },
         },
