@@ -17,7 +17,7 @@ export default class Search extends Component {
     return (
       <div className="search-container">
         <div className="search-box-container">
-          <input className="search-box" placeholder="Search" type="text" value={this.state.query} onChange={this.search} />
+          <input className="search-box" placeholder="Suchen" type="text" value={this.state.query} onChange={this.search} />
         </div>
         {this.state.results.map(page => (
           <div className="post-card">

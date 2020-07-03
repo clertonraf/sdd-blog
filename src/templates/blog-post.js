@@ -27,7 +27,8 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.title}
             </h1>
             <p>
-              {post.frontmatter.date}
+              {new Date(post.frontmatter.date)
+                .toLocaleDateString("de-DE", { month: "long", year: "numeric", day: "2-digit"})}
             </p>
             {post.frontmatter.thumbnail && <Img
               fluid={post.frontmatter.thumbnail.childImageSharp.fluid}

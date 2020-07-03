@@ -19,11 +19,11 @@ class Layout extends Component {
             />
             {theme === "dark" ? (
               <div className="tog-text">
-                Light
+                Hell
               </div>
             ) : (
               <div className="tog-text">
-                Dark
+                Dunkel
               </div>
             )}
           </label>
@@ -43,7 +43,7 @@ class Layout extends Component {
           <div className="nav-container">
             <ul className="header-nav">
               <li id="header-nav-first"><Link to={`/tags`}>Tags</Link></li>
-              <li><Link to={`/search`}>Search</Link></li>
+              <li><Link to={`/search`}>Suchen</Link></li>
               <li>{toggler}</li>
             </ul>
 {/*             <ul className="header-link">
@@ -54,7 +54,7 @@ class Layout extends Component {
         </div>
         <main>{children}</main>
         <footer className="footer-copyright">
-          © {new Date().getFullYear()} {title}, Built with
+          © {new Date().getFullYear()} {title}, Entwickelt mit
           {` `}
           <a className="footer-gatsby" href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
