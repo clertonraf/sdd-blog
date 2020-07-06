@@ -245,6 +245,7 @@ hr {
     height: 0.5rem;
     margin-left: 0.125rem;
     fill: var(--color-blue);
+    align-self: center;
 }
 
 .post-nav {

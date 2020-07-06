@@ -1,66 +1,12 @@
-import React, { Component } from "react";
-import { Link } from "gatsby"
-import { ThemeToggler } from "gatsby-plugin-dark-mode"
+import React from "react";
+import Header from "./Header"
+import Footer from "./Footer"
 
-class Layout extends Component {
-  render() {
-    const { title, children} = this.props
-    const toggler = (
-      <div className="toggler">
-        <ThemeToggler>{({ theme, toggleTheme }) => (
-          <label className="tog">
-            <input
-              type="checkbox"
-              onChange={e =>
-                toggleTheme(e.target.checked ? "dark" : "light")
-              }
-              checked={theme === "dark"}
-              className="tog-checkbox"
-            />
-            {theme === "dark" ? (
-              <div className="tog-text">
-                Hell
-              </div>
-            ) : (
-              <div className="tog-text">
-                Dunkel
-              </div>
-            )}
-          </label>
-        )}</ThemeToggler>
-      </div>
-    )
-
-    return (
-      <div className="site-container">
-        <div className="header-container">
-          <Link
-            className="header-title"
-            to={`/`}
-          >
-            {title}
-          </Link>
-          <div className="nav-container">
-            <ul className="header-nav">
-              <li id="header-nav-first"><Link to={`/tags`}>Tags</Link></li>
-              <li><Link to={`/search`}>Suchen</Link></li>
-              <li>{toggler}</li>
-            </ul>
-{/*             <ul className="header-link">
-              <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-            </ul> */}
-          </div>
-        </div>
-        <main>{children}</main>
-        <footer className="footer-copyright">
-          © {new Date().getFullYear()} {title}, Entwickelt mit
-          {` `}
-          <a className="footer-gatsby" href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
-    )
-  }
-}
+const Layout = ({ title, children}) =>
+  <div className="site-container">
+    <Header title={title}>{children}</Header>
+    <main>{children}</main>
+    <Footer title={title} />
+  </div>
 
 export default Layout

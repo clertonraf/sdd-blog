@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import PostCard from "../components/postCard"
+import PostCard from "../components/PostCard"
 import Paginator from "../components/paginator"
 
 import "../styles/style.css"
@@ -18,7 +18,7 @@ const BlogIndexTemplate = ({ data, pageContext }) => {
         <PostCard
           key={node.fields.slug}
           node={node}
-          postClass={`post`}
+          postClass="post"
         />
       )}
       <Paginator pageContext={pageContext} />
