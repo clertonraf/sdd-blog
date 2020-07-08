@@ -26,7 +26,7 @@ const TagIndex = ({ data }) => {
               key={tag}
               to={`/tags/${_.kebabCase(tag)}`}
               >
-              <div className="tag-archive-item">{tag}</div>
+              <div className="tag-archive-item">#{tag}</div>
               </Link>
             )
           })}

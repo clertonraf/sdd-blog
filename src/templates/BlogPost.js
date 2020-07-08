@@ -26,6 +26,7 @@ class BlogPostTemplate extends React.Component {
             <h1>
               {post.frontmatter.title}
             </h1>
+            <Tags tags={post.frontmatter.tags}/>
             <p>
               {new Date(post.frontmatter.date)
                 .toLocaleDateString("de-DE", { month: "long", year: "numeric", day: "2-digit"})}
@@ -36,7 +37,6 @@ class BlogPostTemplate extends React.Component {
             />}
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
-          <Tags tags={post.frontmatter.tags}/>
         </article>
         <hr/>
         <nav>
