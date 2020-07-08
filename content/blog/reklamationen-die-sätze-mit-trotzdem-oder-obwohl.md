@@ -34,19 +34,19 @@ c) **Grund (Nebensatz):** Wir haben keine Zeitung bestellt. **Unerwartet (Haupts
 * **Obwohl** keine Zeitung bestellt haben, *haben wir* schon mehrere Ausgaben erhalten.
 * Wir haben schon mehrere Ausgaben erhalten, **obwohl** wir keine Zeitung bestellt erhalten haben.
 
-d) **Grund (Nebensatz):** Sie bezahlt 200 Euro für die Handtasche. **Unerwartet (Hauptsatz)**: Sie ist schon kaputt.
+d) **Grund (Nebensatz):** Sie ist schon kaputt. **Unerwartet (Hauptsatz)**: Sie bezahlt 200 Euro für die Handtasche. 
 
-* Sie bezahlt 200 Euro für die Handtasche. **Trotzdem** *ist sie* schon kaputt.
-* Sie bezahlt 200 Euro für die Handtasche. Sie ist **trotzdem** schon kaputt.
-* **Obwohl** sie 200 Euro für die Handtasche bezahlt, *ist sie* schon kaputt.
-* Sie ist schon kaputt, **obwohl** sie 200 Euro für die Handtasche bezahlt.
+* Sie ist schon kaputt. **Trotzdem** *bezahlt sie* 200 Euro für die Handtasche.
+* Sie ist schon kaputt. Sie bezahlt **trotzdem** 200 Euro für die Handtasche.
+* **Obwohl** sie schon kaputt ist, *bezahlt Sie* 200 Euro für die Handtasche.
+* Sie bezahlt 200 Euro für die Handtasche, **obwohl** sie schon kaputt ist.
 
 e) **Grund (Nebensatz):** Sie haben es vor fünf Tagen gesendet. **Unerwartet (Hauptsatz)**: Wir haben Ihr Schreiben nicht erhalten.
 
 * Sie haben es vor fünf Tagen gesendet. **Trotzdem** *haben wir* Ihr Schreiben nicht erhalten.
 * Sie haben es vor fünf Tagen gesendet. Wir haben **trotzdem** Ihr Schreiben nicht erhalten.
-* **Obwohl** es vor fünf Tagen gesendet haben, *haben wir* Ihr Schreiben nicht erhalten.
-* Wir haben Ihr Schreiben nicht erhalten, **obwohl** es vor fünf Tagen gesendet haben.
+* **Obwohl** Sie es vor fünf Tagen gesendet haben, *haben wir* Ihr Schreiben nicht erhalten.
+* Wir haben Ihr Schreiben nicht erhalten, **obwohl** Sie es vor fünf Tagen gesendet haben.
 
 f) **Grund (Nebensatz):** Ich bin mit Ihrem Service nicht zufrieden. **Unerwartet (Hauptsatz)**: Ich bleibe Kunde bei Ihnen.
 
