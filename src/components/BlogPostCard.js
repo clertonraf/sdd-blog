@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby"
 import Tags from "./tags"
 
-const PostCard = ({ node }) =>
+const BlogPostCard = ({ node }) =>
 <div key={node.fields.slug}>
   <div className="post-card">
     <header>
@@ -24,4 +24,4 @@ const PostCard = ({ node }) =>
   </div>
 </div>
 
-export default PostCard
+export default BlogPostCard

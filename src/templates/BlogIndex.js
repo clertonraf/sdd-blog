@@ -1,9 +1,9 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/Layout"
+import Layout from "../components/BlogLayout"
 import SEO from "../components/seo"
-import PostCard from "../components/PostCard"
+import PostCard from "../components/BlogPostCard"
 import Paginator from "../components/paginator"
 
 import "../styles/style.css"
